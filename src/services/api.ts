@@ -35,6 +35,6 @@ export const fetchImages = async (
     return response.data;
   } catch (error) {
     console.error("Ошибка при запросе к Unsplash API:", error);
-    throw error; // Пробрасываем ошибку дальше, чтобы ее обработал App.tsx
+    throw error;
   }
 };

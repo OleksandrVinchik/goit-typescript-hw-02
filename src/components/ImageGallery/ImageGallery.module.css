@@ -22,8 +22,8 @@
 
 .image {
   width: 100%;
-  height: auto; /* Позволяем высоте подстраиваться под контент */
-  display: block; /* Убираем возможные встроенные отступы у inline-элементов */
+  height: auto;
+  display: block;
   object-fit: cover;
   border-radius: 8px;
 }
